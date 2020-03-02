@@ -3,7 +3,9 @@ const url = require('url');
 const port = 3001;
 
 const tempConverter = (temp, from, to) => {
-    return 'Hello from temp converter';
+    var celsius = (fah - 32) * 5/9;
+    return celsius;
+
 }
 
 server.createServer((req, res) => {
