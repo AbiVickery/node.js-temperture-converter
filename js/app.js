@@ -3,8 +3,21 @@ const url = require('url');
 const port = 3001;
 
 const tempConverter = (temp, from, to) => {
-    var celsius = (fah - 32) * 5/9;
-    return celsius;
+    // var celsius = (fah - 32) * 5/9;
+    // return `<strong>${temp.toFixed(2)}</strong>`;
+    switch (from) {
+        case 'far':
+            celsius = (temp - 32) * 5/9;
+            break;
+            default:
+                celsius = temp;
+                break;
+    }
+
+    switch (to) {
+        case 'far':
+            // do stuff in a mo
+    }
 
 }
 
