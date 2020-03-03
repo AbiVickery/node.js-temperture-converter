@@ -16,7 +16,7 @@ const tempConverter = (temp, from, to) => {
 
     switch (to) {
         case 'far':
-            // do stuff in a mo
+            // do stuff in a mo'
     }
 
 }
